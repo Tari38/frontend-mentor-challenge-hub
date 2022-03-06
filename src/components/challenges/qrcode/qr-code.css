@@ -73,7 +73,7 @@ hr {
 	background-color: #fff;
 }
 
-.challenge-button {
+#qr-button {
 	position: relative;
 	cursor: pointer;
 	margin-top: 10px;
@@ -82,9 +82,71 @@ hr {
 	border: none;
 	border-radius: 5px;
 	background-color: #9aba76;
-	padding: 5px;
+	padding: 15px;
 	text-decoration: none;
 	text-transform: uppercase;
 	color: #fff;
-	box-shadow: 2px 2px 3px 2px #F0BB62;
+	
+}
+
+.qrcode {
+  font-family: "Outfit", sans-serif;
+  text-align: center;
+  background-color: hsl(212, 45%, 89%);
+  height: 100%;
+  padding: 30px;
+  max-width: 375px;
+	border-radius: 20px;
+}
+
+.qr-container {
+  background-color: #fff;
+  padding: 10px;
+  border-radius: 20px;
+  max-width: 360px;
+  min-width: 360px;
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+}
+
+#qr {
+  border-radius: 20px;
+  max-width: 360px;
+  min-width: 360px;
+  margin: auto;
+}
+
+h2,
+p {
+  font-weight: 700;
+  font-size: 1.75rem;
+  text-align: center;
+  padding: 15px;
+  color: hsl(218, 44%, 22%);
+  margin-bottom: 10px;
+}
+
+p {
+  font-weight: 400;
+  font-size: 15px;
+  color: hsl(220, 15%, 55%);
+  line-height: 1.5rem;
+}
+
+@media screen and (max-width: 375px) {
+  .container {
+    width: 370px;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+  }
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
 }
