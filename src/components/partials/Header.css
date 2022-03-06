@@ -1,0 +1,57 @@
+/* font-family: 'Space Mono', monospace;
+   font-family: 'Syne Mono', monospace; */
+
+/* #F4EEA9
+   #F0BB62
+   #519259
+   #064635 */
+
+/* @media (prefers-reduced-motion: no-preference) {
+  #feLogo1, #feLogo2 {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+} */
+
+@media screen and (max-width: 740px) {
+  #feLogo1 {
+    visibility: hidden;
+  }
+}
+
+.App-header {
+  background-image: linear-gradient(to bottom, #f4eea9, #d6dd96, #b8cb86, #9aba76, #7ba969, #669b61, #518d59, #3c7f51, #2d704b, #1f6244, #12543d, #064635);
+  height: 170px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+  text-shadow:  4px 3px 3px #064635;
+  border-bottom: 2px solid #064635;
+}
+
+.title {
+  padding: 20px;
+}
+
+#feLogo1 {
+  position: absolute;
+  height: 10vmin;
+	width: 10vmin;
+  left: 20px;
+  top: 50px;
+  pointer-events: none;
+  border-radius: 10px;
+  padding-right: 10px;
+  /* box-shadow: 3px 3px 4px 2px #12543d; */
+}

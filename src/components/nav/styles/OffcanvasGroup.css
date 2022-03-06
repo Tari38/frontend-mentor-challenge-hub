@@ -1,0 +1,16 @@
+.offcanvas-group {
+	color: white;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.offcanvas-group:not(:last-of-type) {
+	margin-bottom: 20px;
+}
+
+.offcanvas-group-title {
+	white-space: nowrap;
+	overflow: hidden;
+}

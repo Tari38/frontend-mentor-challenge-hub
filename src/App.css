@@ -1,0 +1,63 @@
+/* font-family: 'Space Mono', monospace;
+   font-family: 'Syne Mono', monospace; */
+
+/* #F4EEA9
+   #F0BB62
+   #519259
+   #064635 */
+
+.App {
+  font-family: 'Space Mono', monospace;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.welcome {
+  position: relative;
+  padding: 20px;
+  margin-top: 0;
+  color: #064635;
+  background-color: #F4EEA9;
+  z-index: 1;
+}
+
+.challenges {
+  background-color: #F4EEA9;
+  margin-top: 0;
+  z-index: 1;
+}
+
+.offcanvas-group-title {
+	border-bottom: 1px solid white;
+	padding: 5px 10px;
+	font-weight: 100;
+}
+
+.offcanvas-container {
+	background-color: #519259;
+}
+
+.offcanvas-item {
+	color: white;
+	transition: background 0.1s linear;
+}
+
+.offcanvas-item:hover {
+	background: #efefef;
+	color: #064635;
+	cursor: pointer;
+}
+
+.offcanvas-image-container {
+	width: 100%;
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+}
+
+.offcanvas-image {
+	height: 100px;
+	width: 100px;
+	border-radius: 100px;
+}

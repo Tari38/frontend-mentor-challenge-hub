@@ -1,0 +1,28 @@
+.offcanvas-container {
+	display: flex;
+	flex-direction: column;
+	width: 100%;
+	margin-top: 0;
+	transition: 0.3s ease-in-out; 
+	opacity: .75;
+	z-index: 1000;
+}
+
+.offcanvas-container.expanded {
+	width: 100%;
+	margin-top: 0;
+	z-index: 1000;
+}
+
+.offcanvas-container.collapsed {
+	height: 0px;
+}
+
+.offcanvas-list {
+	width: 100%;
+	list-style: none;
+	padding: 0px;
+	margin: 0px;
+	display: flex;
+	flex-direction: column;
+}

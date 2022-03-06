@@ -1,0 +1,15 @@
+.offcanvas-button {
+	position: relative;
+	width: 100%;
+	height: 40px;
+	background-image: linear-gradient(to bottom, #b8cb86, #9aba76, #7ba969, #669b61, #518d59, #3c7f51, #2d704b, #1f6244, #12543d, #064635);
+	color: #fff;
+	text-transform: uppercase;
+	border: none;
+	box-shadow: 3px 3px 4px 2px #12543d;
+	cursor: pointer;
+	margin: auto;
+	font-weight: 700;
+	letter-spacing: 2px;
+	text-align: center;
+}

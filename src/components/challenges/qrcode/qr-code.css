@@ -1,0 +1,90 @@
+.challenge-card {
+  display: flex;
+  border: solid 2px #F0BB62;
+  min-width: 150px;
+  max-width: 370px;
+  margin: auto;
+  padding: 10px;
+  background-color: #fff;
+  border-radius: 20px;
+  box-shadow: 3px 3px 4px 4px #F0BB62;
+}
+
+#card-img {
+  border-radius: 20px;
+}
+
+.card-body {
+	background-color: #F4EEA9;
+	padding: 15px;
+	border-radius: 20px;
+
+}
+.card-title {
+	font-family: 'Syne Mono', monospace;
+	color: #F0BB62;
+	text-transform: uppercase;
+	text-shadow: 1px 1px 1px #000;
+	letter-spacing: 1.2px;
+}
+
+hr {
+	background-color: lightblue;
+	height: 2px;
+	border: none;
+}
+
+#html {
+	color: lightblue;
+	font-weight: bold;
+	float: left;
+	margin-left: 20px;
+	text-shadow: 1px 1px 1px #000;
+	letter-spacing: 1.2px;
+}
+
+#css {
+	color: purple;
+	font-weight: bold;
+	margin-right: 100px;
+	text-shadow: 1px 1px 1px #000;
+	letter-spacing: 1.2px;
+}
+
+.diff-group {
+	float: right;
+	margin-right: 20px;
+}
+
+#difficulty {
+	background-color: lightblue;
+	color: white;
+	padding: 4px;
+	border-radius: 5px 0 0 5px;
+}
+
+#diff-text {
+	text-transform: uppercase;
+	padding: 4px;
+	letter-spacing: 1.2px;
+	border: solid 1px lightblue;
+	border-radius: 0 5px 5px 0;
+	color: lightblue;
+	background-color: #fff;
+}
+
+.challenge-button {
+	position: relative;
+	cursor: pointer;
+	margin-top: 10px;
+	min-width: 100%;
+	height: 50px;
+	border: none;
+	border-radius: 5px;
+	background-color: #9aba76;
+	padding: 5px;
+	text-decoration: none;
+	text-transform: uppercase;
+	color: #fff;
+	box-shadow: 2px 2px 3px 2px #F0BB62;
+}
